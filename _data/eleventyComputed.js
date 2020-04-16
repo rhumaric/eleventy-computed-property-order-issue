@@ -10,6 +10,7 @@ module.exports = {
   // Grab the locale from the file extension
   // TODO: From a starting folder too
   locale(data) {
+    console.log('grabbing locale');
     if (data.page.inputPath) {
       const parts = new RegExp(`.*${supportedLocalesExtensionRegExp}`).exec(data.page.fileSlug);
       if (parts) {
