@@ -1,6 +1,0 @@
-Coucou!
-===
-
-{{locale}}
-{{key}}
-{{permalink}}

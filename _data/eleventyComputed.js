@@ -7,6 +7,9 @@ function withoutLocaleExtension(path = '') {
 }
 
 module.exports = {
+  supportedLocales() {
+    return supportedLocales;
+  },
   // Grab the locale from the file extension
   // TODO: From a starting folder too
   locale(data) {
