@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "11ty/eleventy#9109e76"
+    "@11ty/eleventy": "11ty/eleventy#1fd4f02"
   }
 }
